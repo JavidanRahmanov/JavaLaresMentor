@@ -10,6 +10,7 @@ public class StringCompression {
         System.out.println("Add a string: ");
         String word = sc.nextLine();
         ArrayList<Character> elements = new ArrayList<>();
+        Student student = new Student();
         int count = 1;
         for (int i = 0; i < word.length() - 1; i++) {
             if (word.charAt(i) == word.charAt(i + 1))
