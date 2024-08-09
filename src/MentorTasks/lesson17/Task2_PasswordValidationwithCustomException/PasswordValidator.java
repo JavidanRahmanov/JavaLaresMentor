@@ -32,7 +32,7 @@ public class PasswordValidator {
         String password3 ="PASSWORD";
         try{
 
-            if(!validatePassword(password1))
+            if(!validatePassword(password2))
                 throw new InvalidPasswordException("Invalid password!");
             System.out.println("Password is valid!");
         }
